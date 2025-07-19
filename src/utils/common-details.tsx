@@ -1,5 +1,5 @@
 
-
+import { Code, Database, Cloud, GitBranch, Award } from 'lucide-react';
 export const experienceData = [
 
   {
@@ -52,4 +52,62 @@ export const experienceData = [
     },
     ]
   }
+]
+
+
+export const educationDetails = {
+  course: 'B-Tech in Electronics and Communications Engineering',
+  university: 'Kannur University',
+  year: 2017
+}
+
+export const skillDetails = [
+  {
+    id: 1,
+    title: 'Languages',
+    skills: ['JavaScript', 'TypeScript', 'HTML', 'CSS'],
+    icon: Code,
+    bgColor: 'bg-gradient-to-br from-blue-50 to-blue-100',
+    chipColor: 'bg-blue-600'
+  },
+  {
+    id: 2,
+    title: 'Frontend',
+    skills: ['React.js', 'Next.js', 'React Admin', 'MUI', 'Bootstrap', 'Tailwind CSS'],
+    icon: Award,
+    bgColor: 'bg-gradient-to-br from-green-50 to-green-100',
+    chipColor: 'bg-green-600'
+  },
+  {
+    id: 3,
+    title: 'Backend',
+    skills: ['Node.js', 'Express.js', 'WebSockets', 'Middleware'],
+    icon: Database,
+    bgColor: 'bg-gradient-to-br from-purple-50 to-purple-100',
+    chipColor: 'bg-purple-600'
+  },
+  {
+    id: 4,
+    title: 'State management',
+    skills: ['Redux', 'MobX', 'Zustand'],
+    icon: GitBranch,
+    bgColor: 'bg-gradient-to-br from-orange-50 to-orange-100 ',
+    chipColor: 'bg-orange-600'
+  },
+  {
+    id: 5,
+    title: 'Databases',
+    skills: ['PostgreSQL', 'Firebase'],
+    icon: Database,
+    bgColor: 'bg-gradient-to-br from-red-50 to-red-100 ',
+    chipColor: 'bg-red-600'
+  },
+  {
+    id: 6,
+    title: 'Tools & Cloud',
+    skills: ['AWS', 'Git', 'VSCode', 'GitHub', 'GitLab', 'Jira', 'Postman'],
+    icon: Cloud,
+    bgColor: 'bg-gradient-to-br from-indigo-50 to-indigo-100',
+    chipColor: 'bg-indigo-600'
+  },
 ]

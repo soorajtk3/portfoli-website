@@ -23,7 +23,7 @@ const ContactDetails = () => {
         JavaScript and related technologies, with expertise in building responsive,
         high-performance user interfaces and scalable backend systems.
       </p>
-      <div className="flex gap-8">
+      <div className="flex gap-8 flex-wrap">
         <Card iconColor='text-blue-600' icon={Mail} text='soorajtk3@gmail.com' color='bg-white' />
         <Card iconColor='text-blue-600' icon={Phone} text='9567107681' color='bg-white' />
         <Card iconColor='text-blue-600' icon={MapPin} text='Kannur, Kerala' color='bg-white' />
