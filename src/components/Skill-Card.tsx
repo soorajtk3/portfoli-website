@@ -22,7 +22,7 @@ const SkillCard = ({ icon: Icon, skillTitle, skills, chipColor, boxColor }: Skil
             <div key={index}
               className={`${chipColor} w-auto rounded-xl p-2 `}
             >
-              <h3 className="text-white text-sm font-semifold">{item}</h3>
+              <h3 className="text-white text-sm font-medium">{item}</h3>
             </div>
           ))}
         </div>
