@@ -12,7 +12,7 @@ const SkillCard = ({ icon: Icon, skillTitle, skills, chipColor, boxColor }: Skil
 
   return (
     <div>
-      <div className={`${boxColor} max-w-96 h-40 w-96 bg-white  px-6 py-3 rounded-xl shadow-md`}>
+      <div className={`${boxColor} max-w-96 h-40 w-80 bg-white  px-6 py-3 rounded-xl shadow-md`}>
         <div className={`flex gap-2 items-center`} >
           <Icon className={` w-5 h-5 `} />
           <h3 className="text-xl text-black-500 font-semibold text-left">{skillTitle}</h3>

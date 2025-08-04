@@ -14,7 +14,7 @@ const EducationDetails = () => {
           </h2>
         </div>
         <div className="text-left p-4">
-          <h2 className="text-2xl text-gray-800 font-bold">{educationDetails?.course}</h2>
+          <h2 className="text-xl md:text-2xl text-gray-800 font-bold">{educationDetails?.course}</h2>
           <h4 className="text-lg text-blue-600 font-semibold mt-2 mb-2">{educationDetails?.university}</h4>
           <h5 className="text-gray-600">{educationDetails?.year}</h5>
         </div>

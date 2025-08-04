@@ -5,7 +5,7 @@ import { skillDetails } from "../utils/common-details";
 
 const Skills = () => {
   return (
-    <div className="md:mx-16 mx-3 mt-10 ">
+    <div className="lg:mx-16 mx-3 mt-10 ">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold text-gray-800 mb-4 flex items-center justify-center gap-3">
           <Code className="text-blue-600" />

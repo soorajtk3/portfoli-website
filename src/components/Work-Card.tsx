@@ -20,12 +20,12 @@ const WorkCard = ({ id, designation, company, location, duration, responsibiliti
     >
       <div className="flex justify-between">
         <h2 className="text-gray-800 text-2xl font-bold">{designation}</h2>
-        <div className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium">
+        <div className="bg-none md:bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium">
           {duration}
         </div>
 
       </div>
-      <h3 className="text-xl text-blue-600 font-semibold mb-1">{company}</h3>
+      <h3 className="text-xl text-blue-600 font-semibold mt-2 md:mt-0 mb-1">{company}</h3>
       <h4 className="text-gray-600 mb-3">{location}</h4>
       <div>
         <ul className="space-y-3">
